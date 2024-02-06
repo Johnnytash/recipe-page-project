@@ -1,0 +1,149 @@
+/* Body styles */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #a4d4ff;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  line-height: 40px;
+}
+
+/* Container styles */
+.container {
+  width: 90%; 
+  max-width: 700px; 
+  background-color: #fff0f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+
+/* Image styles */
+img {
+  width: 100%; 
+  max-width: 700px; 
+  height: auto;
+  border-radius: 20px;
+}
+
+/* Heading styles */
+h2 {
+  color: #610c9f;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* Time styles */
+.time {
+  background-color: #dbfaee;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.time > h3 {
+  color: #83204e;
+  font-size: 20px;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 16px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 8px; 
+  text-align: left; 
+}
+
+table th {
+  background-color: #f2f2f2; 
+}
+
+table tr {
+  border-bottom: 1px solid #ddd; 
+}
+
+table tr:last-child {
+  border-bottom: none; 
+}
+
+table td:nth-child(2) {
+  color: #be3144;
+  font-weight: 700;
+}
+
+/* Attribution styles */
+.attribution {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+
+/* Mobile styles */
+@media screen and (max-width: 375px) {
+  .container {
+    padding: 20px;
+  }
+  
+  img {
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  .time {
+    padding: 20px;
+  }
+  
+  .time > h3 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 50px;
+  }
+  
+  img {
+    border-radius: 30px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  .time {
+    padding: 40px;
+  }
+  
+  .time > h3 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+}
